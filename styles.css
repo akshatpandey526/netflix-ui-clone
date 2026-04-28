@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* head section  */
+
+.upper {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.95) 100%), url("assets/netflix-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.upper-line-invisible {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5vw;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.side-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons-upper {
+    height: 30px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.button2 {
+    border-radius: 4px;
+    background-color: red;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+}
+
+/* center text  */
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.first-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.second-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.third-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* center-buttons  */
+.buttons-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
+.email-address {
+    height: 3.3em;
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+    border-color: grey;
+}
+
+.email-button {
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 1px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.get-started {
+    background-color: red;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+/* horizontal line  */
+hr {
+    width: 100%;
+    height: 8px;
+    border: none;
+    background: linear-gradient(90deg, rgba(56, 17, 35, 1) 0%, rgba(211, 10, 25, 255) 30%, rgba(227, 9, 91, 0.92) 77%, rgba(56, 17, 35, 1) 100%);
+}
+
+main {
+    background-color: black;
+}
+
+.curve-trail {
+    height: 10vh;
+    width: 100%;
+}
+
+/* black color inside content  */
+.center-text {
+    color: white;
+    padding: 30px 5vw;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* first section — trending  */
+.height-of-images {
+    height: 230px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.first-section {
+    margin: 20px 5vw;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #555 transparent;
+}
+
+.first-section::-webkit-scrollbar {
+    height: 6px;
+}
+
+.first-section::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 3px;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 140px;
+    color: white;
+    font-size: 90px;
+}
+
+.arrangement {
+    display: flex;
+    position: relative;
+}
+
+figure {
+    flex-shrink: 0;
+}
+
+/* second section — more reasons  */
+
+.grid-big-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 5vw;
+}
+
+.colored-boxes {
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.inner-box-heading {
+    font-size: 20px;
+}
+
+.inner-box-paragraph {
+    font-size: 16px;
+    margin-top: 10px;
+    flex: 1;
+}
+
+.left {
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+/* third section — FAQ  */
+
+.grey-boxes {
+    padding: 0 5vw;
+}
+
+.option-menu {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 7px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.option-menu summary {
+    padding: 20px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.option-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.option-menu summary::after {
+    content: '+';
+    font-size: 1.8rem;
+    font-weight: 300;
+    transition: transform 0.3s ease;
+}
+
+.option-menu[open] summary::after {
+    transform: rotate(45deg);
+}
+
+.option-menu p {
+    padding: 0 20px 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    border-top: 1px solid #555;
+    padding-top: 15px;
+}
+
+/* fourth section  */
+
+.center-class {
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 1.1rem;
+}
+
+/* bottom email section  */
+
+.flex-style {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 5vw;
+}
+
+.bottom-email {
+    margin-top: 20px;
+    outline: none;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    height: 3.3em;
+    width: 100%;
+    max-width: 400px;
+}
+
+.bottom-button {
+    background-color: red;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+/* footer  */
+
+.startfooter {
+    background-color: black;
+    color: grey;
+    padding: 40px 5vw 60px;
+}
+
+.question {
+    margin-top: 30px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 40px;
+}
+
+ul li {
+    color: grey;
+    list-style: none;
+    padding-top: 15px;
+}
+
+footer ul li a,
+footer div a {
+    color: grey;
+    text-decoration: underline;
+}
+
+.english-last-button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 40px;
+    padding: 4px 20px;
+}
+
+.last-paras {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.last-paras a {
+    color: rgb(69, 142, 245);
+}
+
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    .upper {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .center {
+        height: auto;
+        padding: 15vh 20px 10vh;
+    }
+
+    .first-heading {
+        font-size: 1.2rem;
+    }
+
+    .second-heading,
+    .third-heading {
+        font-size: 0.85rem;
+    }
+
+    .buttons-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email-address {
+        max-width: 100%;
+    }
+
+    .get-started {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .height-of-images {
+        height: 180px;
+        width: 120px;
+    }
+
+    .position-absolute {
+        font-size: 60px;
+        top: 100px;
+    }
+
+    .grid-big-box {
+        grid-template-columns: 1fr;
+    }
+
+    .colored-boxes {
+        min-height: auto;
+    }
+
+    .center-text {
+        font-size: 1.3rem;
+        padding: 25px 5vw;
+    }
+
+    .option-menu {
+        font-size: 1rem;
+    }
+
+    .list {
+        gap: 30px;
+    }
+
+    .flex-style {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-email {
+        max-width: 100%;
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    .upper-line-invisible {
+        padding: 8px 4vw;
+    }
+
+    .logo img {
+        height: 24px;
+    }
+
+    .button1 {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .button2 {
+        width: 65px;
+    }
+
+    .button2 a {
+        font-size: 13px;
+    }
+
+    .center {
+        padding: 12vh 15px 8vh;
+    }
+
+    .first-heading {
+        font-size: 1rem;
+    }
+
+    .second-heading {
+        font-size: 0.8rem;
+        margin-top: 15px;
+    }
+
+    .third-heading {
+        font-size: 0.85rem;
+        margin-top: 15px;
+    }
+
+    .height-of-images {
+        height: 150px;
+        width: 100px;
+    }
+
+    .position-absolute {
+        font-size: 45px;
+        top: 80px;
+    }
+
+    .first-section {
+        gap: 15px;
+        margin: 10px 4vw;
+    }
+
+    .center-text {
+        font-size: 1.1rem;
+        padding: 20px 4vw;
+    }
+
+    .inner-box-heading {
+        font-size: 17px;
+    }
+
+    .inner-box-paragraph {
+        font-size: 14px;
+    }
+
+    .left svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .option-menu summary {
+        padding: 15px;
+        font-size: 0.95rem;
+    }
+
+    .option-menu p {
+        font-size: 0.9rem;
+        padding: 10px 15px 15px;
+    }
+
+    .center-class {
+        font-size: 0.95rem;
+        margin-top: 40px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .list ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 20px;
+    }
+
+    .list ul li {
+        padding-top: 10px;
+    }
+
+    .english-last-button {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+
+/* Large desktop (1200px+) */
+@media (min-width: 1200px) {
+    .first-heading {
+        font-size: 2rem;
+    }
+
+    .second-heading {
+        font-size: 1.2rem;
+    }
+
+    .third-heading {
+        font-size: 1.1rem;
+    }
+
+    .center-text {
+        font-size: 1.8rem;
+    }
+
+    .height-of-images {
+        height: 260px;
+        width: 170px;
+    }
+
+    .position-absolute {
+        font-size: 100px;
+        top: 150px;
+    }
+
+    .grid-big-box {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .grey-boxes {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
