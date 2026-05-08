@@ -25,7 +25,10 @@
 }
 
 .logo img {
-    height: 40px;
+    height: auto;
+    max-height: 80px;
+    max-width: 200px;
+    object-fit: contain;
 }
 
 .side-buttons {
@@ -413,7 +416,9 @@ footer div a {
     }
 
     .logo img {
-        height: 30px;
+        height: auto;
+        max-height: 60px;
+        max-width: 150px;
     }
 
     .center {
@@ -492,7 +497,9 @@ footer div a {
     }
 
     .logo img {
-        height: 24px;
+        height: auto;
+        max-height: 45px;
+        max-width: 120px;
     }
 
     .button1 {
